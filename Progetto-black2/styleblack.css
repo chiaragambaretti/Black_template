@@ -1,0 +1,128 @@
+/* font-family: 'Orbitron', sans-serif; */
+/* font-family: 'Jura', sans-serif; */
+
+/* setting */
+body{
+    background-color: black;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Orbitron', sans-serif;
+}
+
+:root{
+    --color-blu: rgb(43, 157, 244);
+    --font-Jura: 'Jura', sans-serif;
+    --font-Orbitron:'Orbitron', sans-serif
+}
+
+/* navbar css start */
+.moon-icon{
+
+    transform: rotate(335deg);
+}
+
+.nav-link{
+    font-size: small;
+    opacity: 0.60;
+    margin-left: 20px;
+    font-family: var(--font-Jura)
+}
+
+.nav-link:hover{
+    color: var(--color-blu) !important;  
+}
+
+.navbar-custom{
+    border-bottom: 2px solid grey;
+    width: 100%;
+}
+
+.navbar-toggler{
+    background-color: var(--color-blu);
+}
+/* navbar css end */
+/* ----------------------------------- */
+/* header css start */
+.h1-custom{
+    font-size: 3.5rem;
+}
+
+.headerCustom{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,1)),url(./media/moon.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.pHeader{
+    font-family: var(--font-Jura);
+    font-size: large;
+}
+
+.arrow{
+    position: absolute;
+    bottom: 40%;
+    z-index: 100;
+    width: 100%;
+    text-align: center;
+    animation-name: down-arrow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes down-arrow{
+
+    from{
+        opacity: 0%; top: 70%;
+    }
+
+    to{
+        opacity: 1; bottom: 5%;
+    }
+}
+/* css header end */
+/* -------------------------------------- */
+/* css section 1 start */
+.p1-custom{
+    color: white;
+    font-size: small;
+    opacity: 0.70;
+}
+
+.div1Custom{
+    border-bottom: 2px solid #2B9DF4;
+}
+/* css section 1 end */
+/* ------------------------------------- */
+/* css section 2 start */
+.moon2Custom{
+    margin-top: 200px;
+    width: 400px;
+} 
+
+.p2-custom{
+    color: white;
+    font-size: 20px;
+    
+}
+
+.title2Custom{
+    padding-top: 100px;
+}
+/* css section 2 end */
+/* ------------------------------------ */
+/* css section 3 start */
+
+
+/* css section 3 end */
+
+
+
+
+
+
+
+
+
+/* header css end */
