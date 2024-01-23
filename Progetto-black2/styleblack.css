@@ -265,6 +265,7 @@ h1,h2,h3,h4,h5{
     .divFooter{
         width: 500px;
         font-size: medium;
+        margin-top: -300px;
     }
 
     .centro{
@@ -273,6 +274,7 @@ h1,h2,h3,h4,h5{
     .div-centro{
         justify-content: end !important;
     }
+
 
 }
 
